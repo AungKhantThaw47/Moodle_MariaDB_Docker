@@ -30,7 +30,7 @@ fi
 
 # cp -R /themefolder /bitnami/moodle/theme
 # php /bitnami/moodle/admin/cli/upgrade.php --non-interactive
-echo "new file" > /bitnami/mariadb_moodle/import_ready.txt
-echo "new file written"
+# echo "new file" > /bitnami/mariadb_moodle/import_ready.txt
+# echo "new file written"
 
 exec "$@"
